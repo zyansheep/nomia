@@ -522,7 +522,7 @@ where
 }
 
 impl<P: NameParameters + ?Sized> Copy for Identifier<P> where P::Identifier: Copy {}
-
+/*
 /// A type to carry [NameParameters](NameParameters) using [Box](Box)
 /// for references and [Vec](Vec) for sequences.
 pub enum OwnedNameParameters {}
@@ -548,7 +548,7 @@ impl NameParameters for OwnedNameParameters {
 ///
 /// Built on top of [Box](Box) and [Vec](Vec).
 pub type OwnedName = Name<OwnedNameParameters>;
-
+*/
 mod bnfc {
     #![allow(non_upper_case_globals)]
     #![allow(non_camel_case_types)]

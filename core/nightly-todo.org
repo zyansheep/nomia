@@ -1,0 +1,3 @@
+This document tracks changes we could make if we switched to Rust nightly.
+
+- ~allocator_api~ would allow access to allocation as a capability. Probably necessary for embedded.
